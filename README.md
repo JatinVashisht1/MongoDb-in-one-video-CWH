@@ -24,7 +24,7 @@ db.dropDatabase()
 
 -------
 
-Collection commands 🔥
+## Collection commands 🔥
 
 collection equivalent to table of SQL
 
@@ -42,7 +42,7 @@ db.content.drop()
 
 -------
 
-Document commands 🔥
+## Document commands 🔥
 
 Document is equivalent to row of SQL
 
@@ -68,7 +68,7 @@ db.comments.insert({'name':'Harry', 'lang':'JavaScript', 'member_since':5, 'date
 
 -------
 
-Search in MongoDb database 🔥
+## Search in MongoDb database 🔥
 
 Searching with conditions:
 
@@ -106,7 +106,7 @@ db.comments.findOne({name:'Jatin'})
 
 -------
 
-Sorting commands 🔥
+## Sorting commands 🔥
 
 1. to sort in ascending order
 2. to sort in descending order
@@ -116,7 +116,7 @@ db.comments.find().sort({name:-1}).pretty()
 
 -------
 
-Updating a row 🔥
+## Updating a row 🔥
 
 db.comments.update({name: 'Harry'}, {
     'name': 'Harry',
@@ -135,7 +135,7 @@ db.comments.update(
 
 -------
 
-Update operators in MongoDB 🔥
+## Update operators in MongoDB 🔥
 
 Increment:
 
