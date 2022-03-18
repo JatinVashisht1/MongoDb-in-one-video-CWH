@@ -2,7 +2,7 @@
 ## Some points about MongoDb:
 
 1. MongoDb does not give a fuck about schema, unlike relational db.
-2. It stores object as BSON (not JSON), which give is extra features
+2. It stores object as BSON (not JSON), which gives extra features
 3. It gives a unique id to each object by itself
 4. Its commands are very intuitive
 5. We can also control db. operations through its gui i.e MongoDBCompass.
